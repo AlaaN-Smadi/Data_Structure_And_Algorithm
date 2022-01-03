@@ -1,0 +1,25 @@
+{
+  "name": "Data_Structure_And_Algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlaaN-Smadi/Data_Structure_And_Algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlaaN-Smadi/Data_Structure_And_Algorithm/issues"
+  },
+  "homepage": "https://github.com/AlaaN-Smadi/Data_Structure_And_Algorithm#readme",
+  "dependencies": {
+    "dots-config": "^2.1.1",
+    "express": "^4.17.2",
+    "jest": "^27.4.5"
+  }
+}
