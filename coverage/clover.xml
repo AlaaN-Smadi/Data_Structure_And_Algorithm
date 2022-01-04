@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1641192626163" clover="3.2.0">
-  <project timestamp="1641192626163" name="All files">
-    <metrics statements="237" coveredstatements="237" conditionals="82" coveredconditionals="82" methods="19" coveredmethods="19" elements="338" coveredelements="338" complexity="0" loc="237" ncloc="237" packages="2" files="13" classes="13"/>
+<coverage generated="1641278013755" clover="3.2.0">
+  <project timestamp="1641278013755" name="All files">
+    <metrics statements="355" coveredstatements="355" conditionals="122" coveredconditionals="122" methods="37" coveredmethods="37" elements="514" coveredelements="514" complexity="0" loc="355" ncloc="355" packages="5" files="18" classes="18"/>
     <package name="class_Directory.Linked_List">
       <metrics statements="24" coveredstatements="24" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
       <file name="Linked_List.js" path="/home/alaa/Data_Structure_And_Algorithm/class_Directory/Linked_List/Linked_List.js">
@@ -31,8 +31,91 @@
       </file>
       <file name="Node.js" path="/home/alaa/Data_Structure_And_Algorithm/class_Directory/Linked_List/Node.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="154" type="stmt"/>
-        <line num="14" count="11" type="stmt"/>
+        <line num="8" count="209" type="stmt"/>
+        <line num="14" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="class_Directory.Queue">
+      <metrics statements="36" coveredstatements="36" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>
+      <file name="Queue.js" path="/home/alaa/Data_Structure_And_Algorithm/class_Directory/Queue/Queue.js">
+        <metrics statements="36" coveredstatements="36" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="6" type="stmt"/>
+        <line num="64" count="6" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="class_Directory.Stack">
+      <metrics statements="35" coveredstatements="35" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>
+      <file name="Stack.js" path="/home/alaa/Data_Structure_And_Algorithm/class_Directory/Stack/Stack.js">
+        <metrics statements="35" coveredstatements="35" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="15" count="49" type="stmt"/>
+        <line num="16" count="49" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="22" count="41" type="stmt"/>
+        <line num="23" count="41" type="stmt"/>
+        <line num="24" count="41" type="stmt"/>
+        <line num="28" count="9" type="stmt"/>
+        <line num="29" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="31" type="stmt"/>
+        <line num="34" count="31" type="stmt"/>
+        <line num="36" count="31" type="stmt"/>
+        <line num="39" count="9" type="stmt"/>
+        <line num="40" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="47" count="9" type="stmt"/>
+        <line num="48" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="9" type="stmt"/>
+        <line num="56" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="60" count="5" type="stmt"/>
+        <line num="61" count="5" type="stmt"/>
+        <line num="62" count="5" type="stmt"/>
+        <line num="63" count="21" type="stmt"/>
+        <line num="64" count="21" type="stmt"/>
+        <line num="66" count="5" type="stmt"/>
+        <line num="68" count="5" type="stmt"/>
+        <line num="73" count="4" type="stmt"/>
       </file>
     </package>
     <package name="function_Directory.LinkedList">
@@ -282,6 +365,65 @@
         <line num="55" count="3" type="stmt"/>
         <line num="59" count="2" type="stmt"/>
         <line num="64" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function_Directory.Stack_And_Queue">
+      <metrics statements="47" coveredstatements="47" conditionals="20" coveredconditionals="20" methods="6" coveredmethods="6"/>
+      <file name="reverseStack.js" path="/home/alaa/Data_Structure_And_Algorithm/function_Directory/Stack_And_Queue/reverseStack.js">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+      <file name="reverseStr.js" path="/home/alaa/Data_Structure_And_Algorithm/function_Directory/Stack_And_Queue/reverseStr.js">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="24" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="24" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="sortRecursively.js" path="/home/alaa/Data_Structure_And_Algorithm/function_Directory/Stack_And_Queue/sortRecursively.js">
+        <metrics statements="22" coveredstatements="22" conditionals="14" coveredconditionals="14" methods="3" coveredmethods="3"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="16" type="stmt"/>
+        <line num="39" count="27" type="cond" truecount="4" falsecount="0"/>
+        <line num="40" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="15" type="stmt"/>
+        <line num="42" count="15" type="stmt"/>
+        <line num="43" count="15" type="stmt"/>
+        <line num="46" count="27" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
       </file>
     </package>
   </project>
