@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1641278013755" clover="3.2.0">
-  <project timestamp="1641278013755" name="All files">
-    <metrics statements="355" coveredstatements="355" conditionals="122" coveredconditionals="122" methods="37" coveredmethods="37" elements="514" coveredelements="514" complexity="0" loc="355" ncloc="355" packages="5" files="18" classes="18"/>
+<coverage generated="1641459624093" clover="3.2.0">
+  <project timestamp="1641459624093" name="All files">
+    <metrics statements="497" coveredstatements="497" conditionals="204" coveredconditionals="204" methods="54" coveredmethods="54" elements="755" coveredelements="755" complexity="0" loc="497" ncloc="497" packages="7" files="23" classes="23"/>
+    <package name="class_Directory.BinaryTree">
+      <metrics statements="35" coveredstatements="35" conditionals="16" coveredconditionals="16" methods="6" coveredmethods="6"/>
+      <file name="BinaryTree.js" path="/home/alaa/Data_Structure_And_Algorithm/class_Directory/BinaryTree/BinaryTree.js">
+        <metrics statements="33" coveredstatements="33" conditionals="16" coveredconditionals="16" methods="5" coveredmethods="5"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="22" type="stmt"/>
+        <line num="15" count="22" type="stmt"/>
+        <line num="17" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="22" count="17" type="stmt"/>
+        <line num="24" count="17" type="stmt"/>
+        <line num="25" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="32" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="35" count="7" type="stmt"/>
+        <line num="40" count="17" type="stmt"/>
+        <line num="41" count="17" type="stmt"/>
+        <line num="45" count="7" type="stmt"/>
+        <line num="46" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="51" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="54" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="8" type="stmt"/>
+        <line num="56" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="8" type="stmt"/>
+        <line num="60" count="4" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+      </file>
+      <file name="Node.js" path="/home/alaa/Data_Structure_And_Algorithm/class_Directory/BinaryTree/Node.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="22" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+    </package>
     <package name="class_Directory.Linked_List">
       <metrics statements="24" coveredstatements="24" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
       <file name="Linked_List.js" path="/home/alaa/Data_Structure_And_Algorithm/class_Directory/Linked_List/Linked_List.js">
@@ -31,40 +75,40 @@
       </file>
       <file name="Node.js" path="/home/alaa/Data_Structure_And_Algorithm/class_Directory/Linked_List/Node.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="209" type="stmt"/>
-        <line num="14" count="16" type="stmt"/>
+        <line num="8" count="276" type="stmt"/>
+        <line num="14" count="18" type="stmt"/>
       </file>
     </package>
     <package name="class_Directory.Queue">
       <metrics statements="36" coveredstatements="36" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>
       <file name="Queue.js" path="/home/alaa/Data_Structure_And_Algorithm/class_Directory/Queue/Queue.js">
         <metrics statements="36" coveredstatements="36" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="6" type="stmt"/>
-        <line num="17" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="73" type="stmt"/>
+        <line num="17" count="73" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="15" type="stmt"/>
+        <line num="19" count="15" type="stmt"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="23" count="58" type="stmt"/>
+        <line num="24" count="58" type="stmt"/>
+        <line num="26" count="58" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="71" type="cond" truecount="2" falsecount="0"/>
         <line num="32" count="1" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="37" count="3" type="stmt"/>
-        <line num="40" count="2" type="stmt"/>
+        <line num="34" count="70" type="stmt"/>
+        <line num="35" count="70" type="stmt"/>
+        <line num="37" count="70" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
         <line num="41" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="42" count="1" type="stmt"/>
         <line num="44" count="1" type="stmt"/>
-        <line num="47" count="2" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
         <line num="48" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="49" count="1" type="stmt"/>
         <line num="51" count="1" type="stmt"/>
-        <line num="55" count="2" type="stmt"/>
+        <line num="55" count="5" type="stmt"/>
         <line num="56" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="57" count="1" type="stmt"/>
         <line num="60" count="2" type="stmt"/>
@@ -74,7 +118,7 @@
         <line num="64" count="6" type="stmt"/>
         <line num="66" count="2" type="stmt"/>
         <line num="68" count="2" type="stmt"/>
-        <line num="73" count="1" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
       </file>
     </package>
     <package name="class_Directory.Stack">
@@ -116,6 +160,84 @@
         <line num="66" count="5" type="stmt"/>
         <line num="68" count="5" type="stmt"/>
         <line num="73" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="function_Directory.BinaryTree">
+      <metrics statements="69" coveredstatements="69" conditionals="34" coveredconditionals="34" methods="10" coveredmethods="10"/>
+      <file name="equalTrees.js" path="/home/alaa/Data_Structure_And_Algorithm/function_Directory/BinaryTree/equalTrees.js">
+        <metrics statements="22" coveredstatements="22" conditionals="18" coveredconditionals="18" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+      </file>
+      <file name="printTree.js" path="/home/alaa/Data_Structure_And_Algorithm/function_Directory/BinaryTree/printTree.js">
+        <metrics statements="47" coveredstatements="47" conditionals="16" coveredconditionals="16" methods="7" coveredmethods="7"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="27" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="44" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="47" count="7" type="stmt"/>
+        <line num="48" count="7" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="7" type="stmt"/>
+        <line num="59" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="62" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="4" type="stmt"/>
+        <line num="65" count="7" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="77" count="7" type="stmt"/>
+        <line num="78" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="81" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="82" count="4" type="stmt"/>
+        <line num="84" count="7" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
       </file>
     </package>
     <package name="function_Directory.LinkedList">
@@ -368,7 +490,48 @@
       </file>
     </package>
     <package name="function_Directory.Stack_And_Queue">
-      <metrics statements="47" coveredstatements="47" conditionals="20" coveredconditionals="20" methods="6" coveredmethods="6"/>
+      <metrics statements="85" coveredstatements="85" conditionals="52" coveredconditionals="52" methods="7" coveredmethods="7"/>
+      <file name="minPass.js" path="/home/alaa/Data_Structure_And_Algorithm/function_Directory/Stack_And_Queue/minPass.js">
+        <metrics statements="38" coveredstatements="38" conditionals="32" coveredconditionals="32" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="21" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="12" type="stmt"/>
+        <line num="37" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="44" type="stmt"/>
+        <line num="40" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="41" count="6" type="cond" truecount="6" falsecount="0"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="46" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="6" type="cond" truecount="5" falsecount="0"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="53" count="4" type="cond" truecount="5" falsecount="0"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="62" count="12" type="stmt"/>
+        <line num="63" count="60" type="stmt"/>
+        <line num="64" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="5" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+      </file>
       <file name="reverseStack.js" path="/home/alaa/Data_Structure_And_Algorithm/function_Directory/Stack_And_Queue/reverseStack.js">
         <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
